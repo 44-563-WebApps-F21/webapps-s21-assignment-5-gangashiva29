@@ -34,9 +34,28 @@
   h4 {
     text-align: center;
   }
-  .img-fluid {
-    align-items:center;
+  th {
+    color:lightskyblue;
+    text-shadow:2px 2px 5px;
   }
+
+  th:hover{
+    background-color: black;
+  }
+
+  tr, td{
+    color: white;
+    background-color: black;
+  }
+
+  tr:nth-child(even){
+    background-color: gray;
+  }
+
+  table, th, td {
+  border: 5px solid white;
+}
+
 </style>
 <body>
   <h1>Animals by Ganga Shiva Kumar</h1>
@@ -100,6 +119,52 @@
   </div>
   <br>
   <br>
+
+  <table class="table">
+    <caption class="text-center">Table with animal, city, car names starts with same letter.</caption>
+    <tr>
+      <th >Letter</th>
+      <th >Animal</th>
+      <th >City</th>
+      <th >Car</th>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Afghan Hound</td>
+      <td>Addis Ababa</td>
+      <td>Alfa Romeo</td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>Galapagos Tortoise</td>
+      <td>Grand Prairie</td>
+      <td>Galpin</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>African Bullfrog</td>
+      <td>Alexandria</td>
+      <td>Apex</td>
+    </tr>
+    <tr>
+      <td>N</td>
+      <td>Narwhal</td>
+      <td>Nanuet</td>
+      <td>Nissan </td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>Garden Eel</td>
+      <td>Garland</td>
+      <td>Genesis</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>African Civet</td>
+      <td>Arganda</td>
+      <td>Aston Martin</td>
+    </tr>
+  </table>
 
 </body>
 </html>
