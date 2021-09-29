@@ -56,14 +56,19 @@
   border: 5px solid white;
 }
 
-.btn-toolbar{
-  margin: 10px;
-}
 
-label{
+
+.btn-toolbar, label{
   margin: 2px;
   margin-right: 10px;
 }
+
+button{
+  margin: 5px;
+}
+
+
+
 
 </style>
 <body>
@@ -201,6 +206,23 @@ label{
     <button class="btn btn-danger">A</button>
   </div>
   </div>
+  <br>
+  <br>
+
+  <div class="btn-group" role="group">
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" >Pages
+    </button>
+      <ul class="dropdown-menu">
+       <li> <a href="train.html" class="dropdown-item"><b>Train</b></a></li>
+       <li> <a href="Plane.html" class="dropdown-item"><b>Plane</b></a></li>
+      </ul>
+  </div>
+  </div>  
+  <br>
+  <br>
+  <br>
+  <br>
   <br>
   <br>
 </body>
